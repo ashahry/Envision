@@ -1,0 +1,28 @@
+.pictures {
+  background-color: #f1f1f1;
+}
+
+.image-element {
+  @extend %centered;
+  margin-right: 1em;
+  margin-left: 1em;
+  padding: 0;
+
+  @media #{$brk-tablet} {
+
+    text-align: center;
+    margin-left: 1em;
+    padding: 0;
+
+  }
+  
+}
+
+.section-image {
+  margin: 0 auto;
+  margin-top: 1em;
+  padding: 0;
+}
+
+
+

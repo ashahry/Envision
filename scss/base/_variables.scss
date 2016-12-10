@@ -1,0 +1,21 @@
+
+// Descriptive color variables 
+
+$Tundora      :     #4A4A4A;
+$Alabaster    :     #fafafa;
+$black        :     #000;
+$white        :     #fff;
+
+
+// Functional Color Variables
+
+$text-color                   :   $Tundora;
+$container-background-color   :   $Alabaster;
+$border-color                 :   $black;
+
+
+// Media query breakpoints
+
+$brk-tablet   : '(min-width: 765px)';
+$brk-wide     : '(min-width: 1020px)';  
+
